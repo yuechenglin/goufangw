@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Link } from 'react-router'
 import { connect } from 'react-redux'
-
+import Scroller from '../../component_dev/scroller/src/'
 import { mapStateToProps, mapDispatchToProps } from '../redux/store'
 
 class Index extends React.Component {
@@ -21,9 +21,11 @@ class Index extends React.Component {
 
           </div>
         </header>
-        <section>
-          {this.props.children}
-        </section>
+         
+		        <section>
+		          {this.props.children}
+		        </section>
+        	
         <footer>
           <ul>
             <li className="active">
