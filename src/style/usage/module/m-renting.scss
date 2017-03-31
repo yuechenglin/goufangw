@@ -1,0 +1,24 @@
+.m-renting{
+    @include flexbox();
+    @include flex-direction(column);
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    footer{
+        display:none;
+    }
+    header {
+        height: .46rem;
+        background: green;
+    }
+    section {
+        flex: 1;
+        background: #77FFFF;
+        height: 100%;
+    }
+    footer{
+        height: .5rem;
+        background: #212121;
+        
+    }
+}
